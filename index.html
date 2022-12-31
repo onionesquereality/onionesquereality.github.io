@@ -1,165 +1,161 @@
 <html lang="en">
 
- <head>
-        <meta charset="UTF-8">     
-        <title>Shubhendu Trivedi</title>
+    <head>
+        <meta charset="UTF-8">     
+        <title>Shubhendu Trivedi</title>
 
-        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
-        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,300italic' rel='stylesheet' type='text/css'>
-        <link rel="shortcut icon" href="https://people.csail.mit.edu/shubhendu/Photos/Shubhendu_Trivedi_Yonkers.jpg">
-        <style>
-            
-            body {
-                font-family: 'Open Sans', sans-serif;
-                font-size: 1.5em;
-                font-weight: 500;
-                text-align: justify;
-            }
-          
-            b {
-                font-weight: 600;
-            }
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,300italic' rel='stylesheet' type='text/css'>
+        <link rel="shortcut icon" href="https://people.csail.mit.edu/shubhendu/Photos/Shubhendu_Trivedi_Yonkers.jpg">
+        <style>
+            
+            body {
+                font-family: 'Open Sans', sans-serif;
+                font-size: 1.5em;
+                font-weight: 500;
+                text-align: justify;
+            }
 
-            footer {
-                margin-top: 60px;
-                margin-bottom: 30px;
-                text-align: center;
-            }
+            b {
+                font-weight: 600;
+            }
 
-            h2 {
-                color: #b05145;
-            }
+            footer {
+                margin-top: 60px;
+                margin-bottom: 30px;
+                text-align: center;
+            }
 
-            h3 {
-                color: #bf766d;
-                font-weight: 400;
-            }
+            h2 {
+                color: #b05145;
+            }
 
-            a, a:hover {
-                color: #0404B4;
-            }
+            h3 {
+                color: #bf766d;
+                font-weight: 400;
+            }
 
-            .container {
-                max-width: 800px;
-                padding-left: 25px;
-                padding-right: 25px;
-            }
-          
-          .two-column-div {
-                column-count: 2;
-            }
+            a, a:hover {
+                color: #0404B4;
+            }
 
-            .titlebar {
-                padding-top: 20px;
-                padding-bottom: 20px;
-                overflow: auto;
-                white-space: normal;
-            }
+            .container {
+                max-width: 800px;
+                padding-left: 25px;
+                padding-right: 25px;
+            }
 
-            @media (max-width: 900px) {
-                .titlebar {
-                    text-align: center;
-                }
-            }
+            .titlebar {
+                padding-top: 20px;
+                padding-bottom: 20px;
+                overflow: auto;
+                white-space: normal;
+            }
 
-            .titlebar-img {
-                width: 200px;
-                height: 200px;
-                /*float: left;*/
-            }
+            @media (max-width: 900px) {
+                .titlebar {
+                    text-align: center;
+                }
+            }
 
-            .titlebar-text {
-                max-width: 66.66666667%;
-                float: left;
-                white-space: normal;
-            }
+            .titlebar-img {
+                width: 200px;
+                height: 200px;
+                /*float: left;*/
+            }
 
-            .title-col {
-                text-align: center;
-                display: inline;
-            }
-            
-            .title {
-                font-size: 3em;
-            }
+            .titlebar-text {
+                max-width: 66.66666667%;
+                float: left;
+                white-space: normal;
+            }
 
-            .subtitle {
-                font-size: 2em;
-            }
+            .title-col {
+                text-align: center;
+                display: inline;
+            }
+            
+            .title {
+                font-size: 3em;
+            }
 
-            .infoline {
-                width: 100%;
-            }
+            .subtitle {
+                font-size: 2em;
+            }
 
-            .infoline-heading {
-                width: 130px;
-                text-align: right;
-                display: inline-block;
-            }
+            .infoline {
+                width: 100%;
+            }
 
-            .infoline-text {
-                width: 50%;
-                text-align: left;
-                display: inline-block;
-                vertical-align: text-top;
-            }
+            .infoline-heading {
+                width: 130px;
+                text-align: right;
+                display: inline-block;
+            }
 
-            .grade-table {
-                width: 100%;
-            }
+            .infoline-text {
+                width: 50%;
+                text-align: left;
+                display: inline-block;
+                vertical-align: text-top;
+            }
 
-            .grade-table-header {
-                border-bottom-width: 1px;
-                border-bottom-style: solid;
-            }
+            .grade-table {
+                width: 100%;
+            }
 
-            .grade-table-bottom {
-                border-top-width: 1px;
-                border-top-style: solid;
-            }
+            .grade-table-header {
+                border-bottom-width: 1px;
+                border-bottom-style: solid;
+            }
 
-            .textbook {
-                display: block;
-                height: 95px;
-                margin-bottom: 10px;
-            }
+            .grade-table-bottom {
+                border-top-width: 1px;
+                border-top-style: solid;
+            }
 
-            .textbook-img-container {
-                display: inline-block;
-                float: left;
-                margin-right: 10px;
-            }
+            .textbook {
+                display: block;
+                height: 95px;
+                margin-bottom: 10px;
+            }
 
-            .textbook-img-container img {
-                height: 95px;
-                width: 70px;
-                border-radius: 2px;
-            }
+            .textbook-img-container {
+                display: inline-block;
+                float: left;
+                margin-right: 10px;
+            }
 
-            .textbook-info-item {
-                display: block;
-            }
+            .textbook-img-container img {
+                height: 95px;
+                width: 70px;
+                border-radius: 2px;
+            }
 
-            .vcenter {
-                display: inline-block;
-                vertical-align: middle;
-                float: none;
-            }
+            .textbook-info-item {
+                display: block;
+            }
 
-            #logo {
-                width: 90%;
-                height: auto;
-            }
+            .vcenter {
+                display: inline-block;
+                vertical-align: middle;
+                float: none;
+            }
+
+            #logo {
+                width: 90%;
+                height: auto;
+            }
 		
 	.inbl {
-    		display: inline-block;
-    		vertical-align: top;
+    		display: inline-block;
+    		vertical-align: top;
 		}
 
-            .ul {
-                list-style:none;
-                padding-left:1.2em;
-            }?
+            .ul {
+                list-style:none;
+                padding-left:1.2em;
+            }?
 		.togList
 		{
 
@@ -180,13 +176,13 @@
 		width: 1300;
 		padding-bottom: 15px;
 		}
- 								
+ 								
 		html.isJS .togList dd
 		{
 		display: none;
 		}
 
-        </style>
+        </style>
 	<script type="text/javascript">
 
 	/* Only set closed if JS-enabled */
@@ -203,41 +199,31 @@
 	}
 	</script>
 
-    </head>
+    </head>
 
-    <body>
+    <body>
 
-        <div class="container titlebar">
-            <div class="row">
-                <div class="" style="text-align:center;color:#A80000;font-weight:bold">
-                <div class="subtitle">Shubhendu Trivedi</div>
-                </div>
-            </div>
-        </div>
-	    
-	 <br>  
-	    
-        <div class="container">
-		<div class="row">
-		 <p><hr style="height:1px;border:none;color:#A80000;background-color:#A80000;" /" /></p> 
-		</div>	
-	</div>
-      	       
-      <div class=" container">
-      <div class="row">
-       
-        
-        <div class=" container">
-            <div class="row">
+        <div class="container titlebar">
+            <div class="row">
+                <div class="" style="text-align:center;color:#A80000;font-weight:bold">
+                <div class="subtitle">Shubhendu Trivedi</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class=" container">
+            <div class="row">
 
+ 		<p>
 		<dl class="togList">
 			<dt onclick="tog(this)">
 			<span>+</span> <font color="#0000FF">Some background:</font>
 			</dt>
-		<dd> Prior 
+		<dd> Prior to 
 		</dd>
 		</dl>
 		</p>
+		
 		<p><b style="color:#8B0000;">Contact:</b> </p>
 		
 		<ul style="margin-top:-10px;">
@@ -248,23 +234,30 @@
 
 		<p style="text-align:center;"><b style="color:#A80000;font-size:1.2em;;">Research reports</b></p>
 
-<p>
+	<p>
 
-  <li><strong><a target="_blank" href="Papers/EJOP_TechReport.pdf">The Expected Jacobian Outerproduct: Theory and Empirics</a></strong><br>
-        S. Trivedi and J. Wang.<br>
-	<em> Technical Report.</em><br>
-	<em>arXiv preprint, 2020</em>
+  		<li><strong><a target="_blank" href="Papers/EJOP_TechReport.pdf">The Expected Jacobian Outerproduct: Theory and Empirics</a></strong><br>
+        		S. Trivedi and J. Wang.<br>
+			<em> Technical Report.</em><br>
+			<em>arXiv preprint, 2020</em>
 
-  <br><br>
+  	<br><br>
 
-</p>
 
-        	<p><hr style="height:2px;border:none;color:#A80000;background-color:#A80000;" /" /></p>
+        	<p><hr style="height:2px;border:none;color:#A80000;background-color:#A80000;" /" /></p>
+
+        	<p style="text-align:center;"><b style="color:#A80000;font-size:1.2em;;">Service etc.</b></p>
+       
+        	<p><b style="color:#A80000;">Referee/Reviewing:</b> <br> Neural Information Processing Systems (NeurIPS), User Modeling, Adaptation, and Personalization (UMAP), IEEE Transactions on Neural Networks and Learning Systems (IEEE TNNLS), IEEE Transactions on Pattern Analysis and Machine Intelligence (IEEE TPAMI), 
+		IEEE Transactions on Information Theory, IEEE Transactions on Medical Imaging, International Conference on Machine Learning (ICML), International Conference on Learning Representations (ICLR), 
+		Computer Vision and Patten Recognition (CVPR), International Conference on Computer Vision (ICCV) etc.</p>
+
+        	<p><hr style="height:2px;border:none;color:#A80000;background-color:#A80000;" /" /></p>
 
 		<p style="text-align:center;"><b style="color:#A80000;font-size:1.2em;;">Miscellaneous</b></p>
 
-		<p> My <a target="_blank" href="https://en.wikipedia.org/wiki/Erd%C5%91s_number">Erd&#337;s Number</a> is 2*. My <a target="_blank" href="https://oracleofbacon.org/help.php">Bacon Number</a> is &infin;. I don't <a target="_blank" href ="https://en.wikipedia.org/?title=Vegetarianism"> eat Bacon</a>.  
-		<br>*<strong>Paths</strong>  (<a target="_blank" href="https://files.oakland.edu/users/grossman/enp/Erdos1.html">listing on the Erd&#337;s number project</a>): <br>
+		<p> My <a target="_blank" href="https://en.wikipedia.org/wiki/Erd%C5%91s_number">Erd&#337;s Number</a> is 2*. My <a target="_blank" href="https://oracleofbacon.org/help.php">Bacon Number</a> is &infin;. I don't <a target="_blank" href ="https://en.wikipedia.org/?title=Vegetarianism"> eat Bacon</a>.  
+		<br>*<strong>Paths</strong>  (<a target="_blank" href="https://files.oakland.edu/users/grossman/enp/Erdos1.html">listing on the Erd&#337;s number project</a>): <br>
 		1. Shubhendu Trivedi (2011) &#8592; <a target="_blank" href="https://en.wikipedia.org/wiki/G%C3%A1bor_N._S%C3%A1rk%C3%B6zy">G&#225bor N. S&#225rk&#246zy</a> (1997) &#8592; <a target="_blank" href="https://en.wikipedia.org/wiki/Paul_Erd%C5%91s">Paul Erd&#337;s</a> (1932) 
 		<br>
 		2. Shubhendu Trivedi (2012) &#8592; <a target="_blank" href="https://en.wikipedia.org/wiki/Endre_Szemer%C3%A9di">Endre Szemer&#233di</a> (1966) &#8592; <a target="_blank" href="https://en.wikipedia.org/wiki/Paul_Erd%C5%91s">Paul Erd&#337;s</a> (1932)
@@ -280,10 +273,11 @@
 
 
 		<br><br>
-            </div>
-        </div>
-   </body>
 
+            </div>
+        </div>
+
+   </body>
 </html>
 			
 <!-- Default Statcounter code for New Personal Page
