@@ -1,5 +1,288 @@
 <html lang="en">
 
+ <head>
+        <meta charset="UTF-8">     
+        <title>Shubhendu Trivedi</title>
+
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,300italic' rel='stylesheet' type='text/css'>
+        <link rel="shortcut icon" href="https://people.csail.mit.edu/shubhendu/Photos/Shubhendu_Trivedi_Yonkers.jpg">
+        <style>
+            
+            body {
+                font-family: 'Open Sans', sans-serif;
+                font-size: 1.5em;
+                font-weight: 500;
+                text-align: justify;
+            }
+          
+            b {
+                font-weight: 600;
+            }
+
+            footer {
+                margin-top: 60px;
+                margin-bottom: 30px;
+                text-align: center;
+            }
+
+            h2 {
+                color: #b05145;
+            }
+
+            h3 {
+                color: #bf766d;
+                font-weight: 400;
+            }
+
+            a, a:hover {
+                color: #0404B4;
+            }
+
+            .container {
+                max-width: 800px;
+                padding-left: 25px;
+                padding-right: 25px;
+            }
+          
+          .two-column-div {
+                column-count: 2;
+            }
+
+            .titlebar {
+                padding-top: 20px;
+                padding-bottom: 20px;
+                overflow: auto;
+                white-space: normal;
+            }
+
+            @media (max-width: 900px) {
+                .titlebar {
+                    text-align: center;
+                }
+            }
+
+            .titlebar-img {
+                width: 200px;
+                height: 200px;
+                /*float: left;*/
+            }
+
+            .titlebar-text {
+                max-width: 66.66666667%;
+                float: left;
+                white-space: normal;
+            }
+
+            .title-col {
+                text-align: center;
+                display: inline;
+            }
+            
+            .title {
+                font-size: 3em;
+            }
+
+            .subtitle {
+                font-size: 2em;
+            }
+
+            .infoline {
+                width: 100%;
+            }
+
+            .infoline-heading {
+                width: 130px;
+                text-align: right;
+                display: inline-block;
+            }
+
+            .infoline-text {
+                width: 50%;
+                text-align: left;
+                display: inline-block;
+                vertical-align: text-top;
+            }
+
+            .grade-table {
+                width: 100%;
+            }
+
+            .grade-table-header {
+                border-bottom-width: 1px;
+                border-bottom-style: solid;
+            }
+
+            .grade-table-bottom {
+                border-top-width: 1px;
+                border-top-style: solid;
+            }
+
+            .textbook {
+                display: block;
+                height: 95px;
+                margin-bottom: 10px;
+            }
+
+            .textbook-img-container {
+                display: inline-block;
+                float: left;
+                margin-right: 10px;
+            }
+
+            .textbook-img-container img {
+                height: 95px;
+                width: 70px;
+                border-radius: 2px;
+            }
+
+            .textbook-info-item {
+                display: block;
+            }
+
+            .vcenter {
+                display: inline-block;
+                vertical-align: middle;
+                float: none;
+            }
+
+            #logo {
+                width: 90%;
+                height: auto;
+            }
+		
+	.inbl {
+    		display: inline-block;
+    		vertical-align: top;
+		}
+
+            .ul {
+                list-style:none;
+                padding-left:1.2em;
+            }?
+		.togList
+		{
+
+		}
+		.togList dt
+		{
+		cursor: pointer; cursor: hand;
+		}
+
+		.togList dt span
+		{
+
+		color: #0000FF;
+		}
+
+		.togList dd
+		{
+		width: 1300;
+		padding-bottom: 15px;
+		}
+ 								
+		html.isJS .togList dd
+		{
+		display: none;
+		}
+
+        </style>
+	<script type="text/javascript">
+
+	/* Only set closed if JS-enabled */
+	document.getElementsByTagName('html')[0].className = 'isJS';
+
+	function tog(dt)
+	{
+	var display, dd=dt;
+	/* get dd */
+	do{ dd = dd.nextSibling } while(dd.tagName!='DD');
+	toOpen =!dd.style.display;
+	dd.style.display = toOpen? 'block':''
+	dt.getElementsByTagName('span')[0].innerhtml = toOpen? '-':'+' ;
+	}
+	</script>
+
+    </head>
+
+    <body>
+
+        <div class="container titlebar">
+            <div class="row">
+                <div class="" style="text-align:center;color:#A80000;font-weight:bold">
+                <div class="subtitle">Shubhendu Trivedi</div>
+                </div>
+            </div>
+        </div>
+	    
+	 <br>  
+	    
+        <div class="container">
+		<div class="row">
+		 <p><hr style="height:1px;border:none;color:#A80000;background-color:#A80000;" /" /></p> 
+		</div>	
+	</div>
+      	       
+      <div class=" container">
+      <div class="row">
+       
+        
+        <div class=" container">
+            <div class="row">
+
+		<dl class="togList">
+			<dt onclick="tog(this)">
+			<span>+</span> <font color="#0000FF">Some background:</font>
+			</dt>
+		<dd> Prior 
+		</dd>
+		</dl>
+		</p>
+		<p><b style="color:#8B0000;">Contact:</b> </p>
+		
+		<ul style="margin-top:-10px;">
+		<li>email: shubhendu@{brown OR csail.mit OR cs.uchicago OR ttic}.edu</li>
+		</ul>
+
+		<p><hr style="height:2px;border:none;color:#A80000;background-color:#A80000;" /" /></p>
+
+		<p style="text-align:center;"><b style="color:#A80000;font-size:1.2em;;">Research reports</b></p>
+
+<p>
+
+  <li><strong><a target="_blank" href="Papers/EJOP_TechReport.pdf">The Expected Jacobian Outerproduct: Theory and Empirics</a></strong><br>
+        S. Trivedi and J. Wang.<br>
+	<em> Technical Report.</em><br>
+	<em>arXiv preprint, 2020</em>
+
+  <br><br>
+
+</p>
+
+        	<p><hr style="height:2px;border:none;color:#A80000;background-color:#A80000;" /" /></p>
+
+		<p style="text-align:center;"><b style="color:#A80000;font-size:1.2em;;">Miscellaneous</b></p>
+
+		<p> My <a target="_blank" href="https://en.wikipedia.org/wiki/Erd%C5%91s_number">Erd&#337;s Number</a> is 2*. My <a target="_blank" href="https://oracleofbacon.org/help.php">Bacon Number</a> is &infin;. I don't <a target="_blank" href ="https://en.wikipedia.org/?title=Vegetarianism"> eat Bacon</a>.  
+		<br>*<strong>Paths</strong>  (<a target="_blank" href="https://files.oakland.edu/users/grossman/enp/Erdos1.html">listing on the Erd&#337;s number project</a>): <br>
+		1. Shubhendu Trivedi (2011) &#8592; <a target="_blank" href="https://en.wikipedia.org/wiki/G%C3%A1bor_N._S%C3%A1rk%C3%B6zy">G&#225bor N. S&#225rk&#246zy</a> (1997) &#8592; <a target="_blank" href="https://en.wikipedia.org/wiki/Paul_Erd%C5%91s">Paul Erd&#337;s</a> (1932) 
+		<br>
+		2. Shubhendu Trivedi (2012) &#8592; <a target="_blank" href="https://en.wikipedia.org/wiki/Endre_Szemer%C3%A9di">Endre Szemer&#233di</a> (1966) &#8592; <a target="_blank" href="https://en.wikipedia.org/wiki/Paul_Erd%C5%91s">Paul Erd&#337;s</a> (1932)
+
+		<h4>Elsewhere on the Internet:</h4>
+		-- <a target="_blank" href="https://scholar.google.com/citations?user=EbyGwncAAAAJ&hl=en&oi=ao">Google Scholar</a><br>
+		-- <a target="_blank" href="https://onionesquereality.wordpress.com/">Onionesque Reality</a> (a dormant blog, mostly on random things) <br>
+		-- <a target="_blank" href="https://www.goodreads.com/user/show/16357064-shubhendu-trivedi"> Goodreads </a> (again, not too frequently updated, it is hard to catch up with my own reading speed ;) <br>
+		-- <a target="_blank" href ="https://twitter.com/_onionesque">Twitter</a> (mostly ML related)
+
+
+		<p><hr style="height:2px;border:none;color:#A80000;background-color:#A80000;" /" /></p>
+
+
+		<br><br>
+            </div>
+        </div>
+   </body>
 			
 <!-- Default Statcounter code for New Personal Page
 http://shubhendu-trivedi.org -->
