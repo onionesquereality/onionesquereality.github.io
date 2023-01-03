@@ -275,7 +275,16 @@
 	to intervene when required. Indeed, the	theoretically-grounded quantification of predictive uncertainty can serve as an additional layer of security, 
 	permitting more honest decision-making. Conformal prediction provides an attactive general framework for provable uncertainty quantification with minimal
 	assumptions on the data and the model. With Zhen Lin and Jimeng Sun, we have worked on the development of conformal methods that are scalable, 
-	efficient and can provably work in general settings, all without reducing the accuracy of the base deep learning model.
+	efficient and can provably work in general settings, all without reducing the accuracy of the base deep learning model. We have developed approaches
+	to contruct <em>valid and efficient</em> prediction intervals (PI) (a band of possible outputs rather a point prediction) for general deep neural networks.
+	Validity means that the PI contains the true output with high probability and <em> efficiency</em> means they have small width. Moreover, we have focused
+	on local (or approximate conditional) validity (which holds conditioned on a small neighborhood around a query point) as opposed to the simpler 
+	<em> marginal</em> validity, which only holds on average across all data point. We have also developed conformal methods for the difficult problem of
+	cross-sectional time-series forcasting, such that they are marginally valid (across time series) and the PIs adapt along the temporal dimension as more
+	data becomes available. We have also produced methods for provable <em>full</em> calibration of probabilistic predictions of NNs (not just for the
+	predicted class), which reduces the level of over- or under-confidence typically seen in large neural networks. Much of this work has been directly inspired
+	by real-world scenarios in healthcare such as differential diagnosis, prediction of vital statistics of patients, and also work on automating scientific
+	experiments. Some current problems and themes of interest in this space are listed below. 
 	
 	<br>
 		
