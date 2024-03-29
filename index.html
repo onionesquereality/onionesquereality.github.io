@@ -332,14 +332,14 @@
 	is becoming exceedingly important. To be trustable, such pipelines should support proactive assessment and continuous monitoring at each stage. 
 	To enable proactive assessment, we need provable and easy-to-interpret quantification of uncertainty at every step that can allow human decision makers
 	to intervene when required. Indeed, the	theoretically-grounded quantification of predictive uncertainty can serve as an additional layer of security, 
-	permitting more honest decision-making. Conformal prediction provides an attactive general framework for provable uncertainty quantification with minimal
+	permitting more honest decision-making. Conformal prediction provides an attactive general framework for uncertainty quantification with minimal
 	assumptions on the data distribution and the model. With <a target="_blank" href="https://zlin7.github.io/">Zhen Lin</a> and <a target="_blank" href="https://sunlab.org/">Jimeng Sun</a>, 
 	we have worked on the development of conformal methods that are scalable, 
-	efficient and can provably work in general settings, all without reducing the accuracy of the base deep learning model. We have developed approaches
+	efficient and can work in general settings, all without reducing the accuracy of the base deep learning model. We have developed approaches
 	to construct <em>valid and efficient</em> prediction intervals (PIs) (a band of possible outputs rather a point prediction) for general deep neural networks.
 	Validity means that the PI contains the true output with high probability and <em> efficiency</em> means they have small width. We have also developed
 	conformal methods for the difficult problem of cross-sectional time-series forecasting which can handle validity both along the longitudinal dimension (across
-	points) and the temporal dimension. We have also produced methods for provable <em>full</em> calibration of probabilistic predictions of NNs
+	points) and the temporal dimension. We have also produced methods for <em>full</em> calibration of probabilistic predictions of NNs
 	(not just for the predicted class), which reduces the level of over- or under-confidence typically seen in large neural networks. Much of this work has been directly inspired
 	by real-world scenarios in healthcare such as differential diagnosis, prediction of vital statistics of patients, and also work on automating scientific
 	experiments. Some current problems and themes of interest in this space are listed in the bullet points below.
